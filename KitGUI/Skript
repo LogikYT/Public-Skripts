@@ -1,0 +1,18 @@
+command /kit:
+        description: A chest like GUI will come up with the user's available kits.
+        usage: Usage: /kit or /kits
+        permission: kitgui.gui
+        permission message: &cYou do not have permission to use this command!
+        executable by: players
+        aliases: /kits
+        trigger:
+                wait 1 tick
+                open chest with 1 row named "&a&lKits:" to player
+                wait 1 tick
+                format slot 0 of player with wood sword named "&bStarter" to close then run [make player execute command "/kit Starter"]
+                format slot 1 of player with stone sword named "&bRank1" to close then run [make player execute command "/kit Rank1"]
+                format slot 2 of player with iron sword named "&bRank2" to close then run [make player execute command "/kit Rank2"]
+                format slot 3 of player with diamond sword named "&bRank3" to close then run [make player execute command "/kit Rank3"]
+                format slot 4 of player with wither skeleton head named "&bRank4" to close then run [make player execute command "/kit Rank4"]
+                format slot 5 of player with soul sand named "&bRank5" to close then run [make player execute command "/kit Rank5"]
+                format slot 6 of player with nether star named "&bRank6" to close then run [make player execute command "/kit Rank6"]         
