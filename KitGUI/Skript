@@ -15,4 +15,10 @@ command /kit:
                 format slot 3 of player with diamond sword named "&bRank3" to close then run [make player execute command "/kit Rank3"]
                 format slot 4 of player with wither skeleton head named "&bRank4" to close then run [make player execute command "/kit Rank4"]
                 format slot 5 of player with soul sand named "&bRank5" to close then run [make player execute command "/kit Rank5"]
-                format slot 6 of player with nether star named "&bRank6" to close then run [make player execute command "/kit Rank6"]         
+                format slot 6 of player with nether star named "&bRank6" to close then run [make player execute command "/kit Rank6"]   
+ #You can have up to 9 slots of ranks in the chest gui. If you want to add more rows, change "open chest with 1 row" to 2 instead of 1.
+ 
+ #To change which kit they recieve, change "/kit Rank6" to "/kit (kitname)". To change the name of the item in the gui, change the "Rank6",
+ #or whatever one your doing, to "(rankname)"
+ 
+ #If you have any questions, contact me at logikplays04@gmail.com.
