@@ -7,3 +7,6 @@
 *                                                                                                                                         
 *                                                                                                                                         
 *                                                                                                                                         
+# Authors
+* LogikYT / iReversal | Founder
+* MuelThe Fox | Co-Founder
